@@ -1,0 +1,11 @@
+apiVersion: 1
+
+providers:
+  - name: 'Air Quality Dashboards'
+    orgId: 1
+    folder: 'IoT Analytics'
+    type: file
+    disableDeletion: false
+    editable: true
+    options:
+      path: /etc/grafana/provisioning/dashboards/json

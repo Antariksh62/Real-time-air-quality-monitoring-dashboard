@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.pyc
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Environment
+.env
+venv/
+.venv/
+
+# Logs
+*.log
+
+# OS
+.DS_Store
+
+# Docker
+*.pid
+
+# MongoDB data (if local)
+data/
+
+# Spark checkpoints
+checkpoints/

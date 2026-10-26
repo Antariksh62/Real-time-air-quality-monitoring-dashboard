@@ -1,0 +1,13 @@
+FROM python:3.10-slim
+
+WORKDIR /app
+
+RUN pip install --no-cache-dir kafka-python==2.0.2
+
+COPY producer.py /app/producer.py
+
+ENV PYTHONUNBUFFERED=1
+ENV KAFKA_BOOTSTRAP="kafka:29092"
+ENV KAFKA_TOPIC="air_quality_events"
+
+CMD ["python", "producer.py"]

@@ -1,0 +1,10 @@
+apiVersion: 1
+
+datasources:
+  - name: DashboardAPI
+    type: json
+    access: proxy
+    url: http://dashboard-backend:8000
+    isDefault: true
+    jsonData:
+      keepCookies: []
