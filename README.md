@@ -1,12 +1,12 @@
 # AuraStream: Real-Time IoT Air Quality Streaming & Analytics
 
-[![Python](https://img.shields.io/badge/Python-3.10-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/)
-[![Apache Kafka](https://img.shields.io/badge/Apache%20Kafka-7.3.0-231F20?style=for-the-badge&logo=apachekafka&logoColor=white)](https://kafka.apache.org/)
-[![Apache Spark](https://img.shields.io/badge/Apache%20Spark-3.3.0-E25A1C?style=for-the-badge&logo=apachespark&logoColor=white)](https://spark.apache.org/)
-[![FastAPI](https://img.shields.io/badge/FastAPI-0.110.0-009688?style=for-the-badge&logo=fastapi&logoColor=white)](https://fastapi.tiangolo.com/)
-[![React](https://img.shields.io/badge/React-18.2.0-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)](https://react.dev/)
-[![Grafana](https://img.shields.io/badge/Grafana-10.2.2-F46800?style=for-the-badge&logo=grafana&logoColor=white)](https://grafana.com/)
-[![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)](https://www.docker.com/)
+[![Python](docs/badges/python.svg)](https://www.python.org/)
+[![Apache Kafka](docs/badges/kafka.svg)](https://kafka.apache.org/)
+[![Apache Spark](docs/badges/spark.svg)](https://spark.apache.org/)
+[![FastAPI](docs/badges/fastapi.svg)](https://fastapi.tiangolo.com/)
+[![React](docs/badges/react.svg)](https://react.dev/)
+[![Grafana](docs/badges/grafana.svg)](https://grafana.com/)
+[![Docker](docs/badges/docker.svg)](https://www.docker.com/)
 
 A production-grade distributed IoT telemetry pipeline, real-time stream processing engine, and multi-tier operational monitoring system for high-frequency urban air quality surveillance and automated threshold breach alerting.
 
@@ -439,6 +439,14 @@ Real-time-air-quality-monitoring-dashboard/
 |           |-- index.css              # Custom CSS styling (dark glassmorphism theme)
 |           \-- main.jsx               # React DOM root render mount
 \-- docs/
+    |-- badges/                        # High-resolution technology status badges
+    |   |-- docker.svg
+    |   |-- fastapi.svg
+    |   |-- grafana.svg
+    |   |-- kafka.svg
+    |   |-- python.svg
+    |   |-- react.svg
+    |   \-- spark.svg
     \-- screenshots/                   # Genuine live application captures
         |-- air-quality-overview.png
         |-- grafana-dashboard.png
